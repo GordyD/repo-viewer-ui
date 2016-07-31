@@ -8,10 +8,9 @@ This app is built using React in ES6.
 
 *N.B You will need to ensure you have node 6+ on your machine.*
 
-Run the following commands.
+Clone the repo and then run the following commands.
 
 ```
-git clone 
 npm install
 npm start
 ```
