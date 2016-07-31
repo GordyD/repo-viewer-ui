@@ -5,7 +5,7 @@ module.exports = function (config) {
     browsers: [ 'PhantomJS' ],
     captureTimeout: 60000,
     browserNoActivityTimeout: 60000, // We need to accept that Webpack may take a while to build!
-    singleRun: false,
+    singleRun: true,
     colors: true,
     frameworks: [ 'mocha', 'sinon', 'chai' ], // Mocha is our testing framework of choice
     files: [

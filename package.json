@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint client",
     "test": "./node_modules/karma/bin/karma start",
+    "test:watch": "./node_modules/karma/bin/karma start --no-single-run",
     "start": "NODE_ENV=development node webpack.dev.server.js"
   },
   "engines" : { "node" : ">=6.0.0" },
