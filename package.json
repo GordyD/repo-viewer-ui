@@ -8,6 +8,7 @@
     "test": "./node_modules/karma/bin/karma start",
     "start": "NODE_ENV=development node webpack.dev.server.js"
   },
+  "engines" : { "node" : ">=6.0.0" },
   "author": "Gordon Dent <gordon@workshape.io>",
   "license": "ISC",
   "devDependencies": {
