@@ -4,6 +4,10 @@ This is a React application for viewing all repositories owned by an Organisatio
 
 This app is built using React in ES6.
 
+### Circle CI
+
+Circle CI has been configured to run tests and linting on any newly pushed commits.
+
 [![CircleCI](https://circleci.com/gh/GordyD/repo-viewer-ui.svg?style=svg)](https://circleci.com/gh/GordyD/repo-viewer-ui)
 
 ### Set-up
